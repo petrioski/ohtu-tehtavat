@@ -1,8 +1,8 @@
-*/build/*
-*/.gradle/*
+**/build/*
+**/.gradle/*
 *.tmp
 .vscode/
-*/.settings/*
+**/.settings/*
 
 
 # Compiled class file
