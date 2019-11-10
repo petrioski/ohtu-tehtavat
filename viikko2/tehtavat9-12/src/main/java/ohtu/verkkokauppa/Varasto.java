@@ -4,21 +4,11 @@ import java.util.*;
 
 public class Varasto implements IVarasto {
 
-    private static Varasto instanssi;
-
-    public static Varasto getInstance() {
-        if (instanssi == null) {
-            instanssi = new Varasto();
-        }
-
-        return instanssi;
-    }
-    
-    private Kirjanpito kirjanpito;
+    private IKirjanpito kirjanpito;
     private HashMap<Tuote, Integer> saldot;  
     
-    private Varasto() {
-        kirjanpito = Kirjanpito.getInstance();
+    public Varasto(Kirjanpito kirjanpito) {
+        this.kirjanpito = kirjanpito;
         saldot = new HashMap<Tuote, Integer>();
         alustaTuotteet();
     }
@@ -51,5 +41,11 @@ public class Varasto implements IVarasto {
         saldot.put(new Tuote(3, "Sierra Nevada Pale Ale", 5), 30);
         saldot.put(new Tuote(4, "Mikkeller not just another Wit", 7), 40);
         saldot.put(new Tuote(5, "Weihenstephaner Hefeweisse", 4), 15);
+    }
+
+    public void sisalto() {
+        for (Tuote t : saldot.keySet()) {
+            System.out.println(t.toString() + " kpl " + this.saldot.get(t));
+        }
     }
 }

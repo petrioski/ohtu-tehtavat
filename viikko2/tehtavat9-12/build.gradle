@@ -1,3 +1,7 @@
+plugins {
+    id 'java'
+}
+
 
 apply plugin: 'java'
 
@@ -20,4 +24,12 @@ mainClassName = 'ohtu.Main'
 
 run {
     standardInput = System.in
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'ohtu.Main'
+        )
+    }
 }
