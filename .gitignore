@@ -3,7 +3,7 @@
 *.tmp
 .vscode/
 **/.settings/*
-salainen.txt
+salasanat.txt
 
 # Compiled class file
 *.class
