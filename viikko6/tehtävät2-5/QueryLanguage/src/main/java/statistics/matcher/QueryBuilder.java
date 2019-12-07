@@ -4,15 +4,9 @@ package statistics.matcher;
 public class QueryBuilder {
     Matcher matcher;
     
-    public QueryBuilder() {
-        Matcher m = new All();
+    public QueryBuilder() {        
         this.matcher = new All();                
     }
-
-    // public QueryBuilder And(Matcher... matchers) {
-    //     this.matcher = new And(matchers);
-    //     return this;
-    // }
 
     public QueryBuilder playsIn(String team) {
         this.matcher = new And(this.matcher, new PlaysIn(team));
