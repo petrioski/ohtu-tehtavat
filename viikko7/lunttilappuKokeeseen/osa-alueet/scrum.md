@@ -36,7 +36,9 @@ Sprintin tavoite toimii tiimin ulkopuoliselle nopeana kuvauksena siitä, mitä t
 
 
 ### toteutettavien storyjen määrä
-
+Velositeetilla tarkoitetaan sitä story pointtien määrää, minkä verran tiimi pystyy keskimäärin toteuttamaan yhden sprintin aikana.
+- tiimien velositeetit eivät ole yhteismitallisia
+- uuden tiimin velositeetti hahmottuu ajan mittaan
 
 ### storyjen jakamien pienemmiksi
 Storyjä jaettaessa huomataan usein, että alkuperäinen iso story eli epiikki, kuvaa itse asiassa paljon laajemman toiminnallisuuden kuin mille on tarvetta, 
