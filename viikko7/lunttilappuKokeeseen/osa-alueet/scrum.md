@@ -1,6 +1,8 @@
 
-# Scrum: roolit, artefaktit ja eventit
+# Scrum
 Scrumin takana kolme periaatetta, läpinäkyvyys (transparency), tarkkailu (inspection) ja mukauttaminen (adaptation). Periaatteita sovelletaan sekä tuotteen kehittämiseen lyhyissä sprinteissä ja tiimin työskentelyyn retroissa.
+
+![alt text](../mindmapit/scrum.png "scrum mindmap")
 
 ## Henkilöroolit
 * Kehittäjä (developer)
@@ -21,10 +23,10 @@ Scrumin takana kolme periaatetta, läpinäkyvyys (transparency), tarkkailu (insp
 ## Sprintti
 
 ### Suunnittelu
-*mitä storyja toteutetaan*
+**Mitä storyja toteutetaan:**
 Ensisijainen tavoite sprintin suunnittelulle on selvittää mitä user storyja valitaan toteutettavaksi
 
-*miten storyt saadaan toteutettua*
+**Miten storyt saadaan toteutettua:**
 Suunnittelun yhteydessä on usein tapana pilkkoa kukin user story teknisen tason tehtäviksi (engl. task) jotka on toteutettava, jotta user story saadaan valmiiksi.
 
 ### Sprintin tavoite
@@ -33,8 +35,8 @@ Scrum guide kehottaa että suunnittelun yhteydessä määritellään sprintin ta
 Sprintin tavoite toimii tiimin ulkopuoliselle nopeana kuvauksena siitä, mitä tiimi on kuluvan sprintin aikana tekemässä. 
 
 
-
 ### toteutettavien storyjen määrä
+
 
 ### storyjen jakamien pienemmiksi
 Storyjä jaettaessa huomataan usein, että alkuperäinen iso story eli epiikki, kuvaa itse asiassa paljon laajemman toiminnallisuuden kuin mille on tarvetta, 
