@@ -4,6 +4,7 @@
 .vscode/
 **/.settings/*
 salasanat.txt
+*.smmx
 
 # Compiled class file
 *.class
