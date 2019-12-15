@@ -3,7 +3,7 @@ Helsingin yliopiston [ohjelmistotuotanto -kurssimateriaalin](https://ohjelmistot
 
 Kurssimateriaali jakaantui viiteen osaan:
 1. Ohjelmistotuotanto ja sen osa-alueet
-    * [ohjelmistotuotanto](../viikko7/lunttilappuKokeeseen/osa-alueet/ohjelmistotuotanto.md)
+    * [ohjelmistotuotanto](../lunttilappuKokeeseen/osa-alueet/ohjelmistotuotanto.md)
     * [ketterät menetelmät ja scrum](../viikko7/lunttilappuKokeeseen/osa-alueet/scrum.md)
 1. Ohjelmistojen vaatimusmäärittely, tuotteen ja sprintin hallinta
     * [vaatimusmäärittely](/osa-alueet/vaatimusmaarittely-yleisesti.md)
